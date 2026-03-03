@@ -7,11 +7,24 @@
  *
  */
 
-$name = $_POST['Naam'];
-echo "<br>naam: $name";
+//var_dump($_POST);
+//controleren of er een formuleren verzend bent
+if(isset($_POST["foem_verzonden"]))
+{
 
-$gender = $_POST['Gender'];
-echo "<br>gender: $gender";
+    $name = $_POST['Naam'];
+    $email = $_POST['e-mail'];
+    $leeftijd = $_POST['Leeftijd'];
 
-$email = $_POST['e-mail'];
-echo "<br>e-mail: $email";
+    echo "<br>leeftijd: ".$leeftijd+10;
+    echo "<br>naam: $name";
+    echo "<br>e-mail: $email";
+
+    if (isset($_POST["Gender"])) {
+        $gender = $_POST['Gender'];
+        echo "<br>gender: $gender";
+    }
+}
+else{
+    echo "U moet eerst formulier invulen";
+}
