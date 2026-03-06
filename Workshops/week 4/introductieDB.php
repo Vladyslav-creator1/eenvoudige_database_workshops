@@ -7,7 +7,7 @@
  */
 
 //includen van db_functies
-include "../includs/db_functions.php";
+include "../includes/db_functions.php";
 
 //databaseverbinding starten
 StartConnection("world");
