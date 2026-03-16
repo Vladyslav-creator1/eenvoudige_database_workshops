@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2518a24-7f2c-4b9c-955e-f87bdd17277e" name="Changes" comment="includs2 commit">
-      <change afterPath="$PROJECT_DIR$/pokedex/index.php" afterDir="false" />
+    <list default="true" id="d2518a24-7f2c-4b9c-955e-f87bdd17277e" name="Changes" comment="pokedox 1 commit">
+      <change afterPath="$PROJECT_DIR$/Update-modals/functies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Update-modals/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pokedex/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Auto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Workshops/includs/db_functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/db_functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Workshops/includs/functies.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/functies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Workshops/includs/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Workshops/week 4/introductieDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/Workshops/week 4/introductieDB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokedex/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,14 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="PHP File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,27 +61,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/xampp/htdocs/envoudige_Databese/workshop",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/envoudige_Databese/workshop&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\envoudige_Databese\workshop" />
@@ -96,7 +106,9 @@
       <workItem from="1772183296053" duration="731000" />
       <workItem from="1772523231050" duration="3508000" />
       <workItem from="1772699535038" duration="2601000" />
-      <workItem from="1772785966906" duration="3042000" />
+      <workItem from="1772785966906" duration="3348000" />
+      <workItem from="1773042785878" duration="5683000" />
+      <workItem from="1773651187261" duration="4812000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -138,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772702843969</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="pokedox 1 commit">
+      <option name="closed" value="true" />
+      <created>1772789234487</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1772789234487</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +170,7 @@
     <MESSAGE value="formulier commit" />
     <MESSAGE value="includs commit" />
     <MESSAGE value="includs2 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="includs2 commit" />
+    <MESSAGE value="pokedox 1 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="pokedox 1 commit" />
   </component>
 </project>
