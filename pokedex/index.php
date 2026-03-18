@@ -17,7 +17,7 @@ StartConnection("pokemondb");
 //Uitvoeren van de query op de database
 
 
-
+global $selectedType;
 
 ?>
 <!doctype html>
@@ -33,8 +33,10 @@ StartConnection("pokemondb");
 <body>
 <main>
     <a href = "index.php">
+
     <h1>Pokedex</h1>
     </a>
+    <a href="pokemon_toevogen.php">Toevogen</a>
     <form action="index.php" method="GET">
 
         <fieldset>
