@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2518a24-7f2c-4b9c-955e-f87bdd17277e" name="Changes" comment="pokedox 2 commit">
-      <change afterPath="$PROJECT_DIR$/pokedex/pokemon_toevogen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokedex/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokedex/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="d2518a24-7f2c-4b9c-955e-f87bdd17277e" name="Changes" comment="pokedox 3 commit toevogen.php" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +102,7 @@
       <workItem from="1773651187261" duration="4970000" />
       <workItem from="1773733655818" duration="750000" />
       <workItem from="1773747145547" duration="835000" />
-      <workItem from="1773764421509" duration="4615000" />
+      <workItem from="1773764421509" duration="4915000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -165,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773661346563</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="pokedox 3 commit toevogen.php">
+      <option name="closed" value="true" />
+      <created>1773830456883</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1773830456883</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +182,7 @@
     <MESSAGE value="includs2 commit" />
     <MESSAGE value="pokedox 1 commit" />
     <MESSAGE value="pokedox 2 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="pokedox 2 commit" />
+    <MESSAGE value="pokedox 3 commit toevogen.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="pokedox 3 commit toevogen.php" />
   </component>
 </project>
