@@ -27,7 +27,22 @@ if (isset($_POST["SubmitForm"])) {
     $Species = $_POST["pokemonSpecies"];
     $Pictures = $_POST["pokemonPictures"];
 
-   echo $query = "INSERT INTO pokemondb VALUES ('$name','$number','$Type1','$Type2','$ability','$Species', '$Pictures')";
+   $query = "INSERT INTO pokemon VALUES ('$name','$number','$Type1','$Type2','$ability','$Species', '$Pictures')";
+
+   //verbond maaken met db
+    include "../includes/db_functions.php";
+    StartConnection("pokemondb");
+    //stuur gegevens aan db
+    ExecuteQuery($query);
+    $rowsaffected =  ExecuteQuery($query);
+    if ($rowsaffected >=1)
+    {
+        echo "U heeft pokemon $name toegevoegd";
+    }
+    else
+    {
+        echo "helaas its mis gegan";
+    }
 }
 ?>
 </body>

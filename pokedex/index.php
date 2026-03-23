@@ -99,10 +99,12 @@ global $selectedType;
         {
             $name = $row["name"];
             $img = $row["picture"];
+            $pokemonNumber = $row["picture"];
             echo "<article>";
             echo $name . "<br>";
             echo "<img src='$img' alt='$name' width='100'>";
             echo "</article>";
+            echo "<a href='pokemon_bewerking.php?nameNumber=$pokemonNumber'><button>Bewerking</button></a>";
         }
         ?>
     </section>
