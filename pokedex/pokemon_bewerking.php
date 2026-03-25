@@ -23,16 +23,16 @@ $query = "SELECT * FROM pokemon WHERE number = $pokemonNumber;";
 include "../includes/db_functions.php";
 $conn = StartConnection("pokemondb");
 
-$result = ExecuteEditQuery($query);
+$result = ExecuteSelectQuery($query);
 $current = $result[0];
-
-$currentNumber = $current["pokemonaNumber"];
-$currentName = $current["pokemonaname"];
-$currentAbility = $current["pokemonability"];
-$currentType1 = $current["pokemontype1"];
-$currentType2 = $current["pokemontype2"];
-$currentSpecies = $current["pokemonspecies"];
-$currentPictures = $current["pokemonpictures"];
+var_dump($current);
+$currentNumber = $current["number"];
+$currentName = $current["name"];
+$currentAbility = $current["ability"];
+$currentType1 = $current["type1"];
+$currentType2 = $current["type2"];
+$currentSpecies = $current["species"];
+$currentPictures = $current["picture"];
 
 
 if (isset($_POST["SubmitForm"])) {
@@ -43,6 +43,16 @@ if (isset($_POST["SubmitForm"])) {
     $Type2 = $_POST["pokemonType2"];
     $Species = $_POST["pokemonSpecies"];
     $Pictures = $_POST["pokemonPictures"];
+
+        echo $Updatequery = "UPDATE pokemon SET 
+            name = '$name',
+            ability = '$ability',
+            Type1 = '$Type1',
+            Type2 = '$Type2',
+            Species = '$Species',
+            Pictures = '$Pictures'
+        WHERE number = '$number'
+    ";
 
 }
 
