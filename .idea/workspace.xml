@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2518a24-7f2c-4b9c-955e-f87bdd17277e" name="Changes" comment="pokedox 5 commit toevogen.php">
+    <list default="true" id="d2518a24-7f2c-4b9c-955e-f87bdd17277e" name="Changes" comment="pokedox Update klar">
+      <change afterPath="$PROJECT_DIR$/pokedex/pokemon_verwijderen.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pokedex/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pokedex/pokemon_bewerking.php" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/pokemon_bewerking.php" afterDir="false" />
@@ -20,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="PHP File" />
         <option value="JavaScript File" />
+        <option value="PHP File" />
       </list>
     </option>
   </component>
@@ -108,7 +109,8 @@
       <workItem from="1773747145547" duration="835000" />
       <workItem from="1773764421509" duration="4915000" />
       <workItem from="1774259208487" duration="6658000" />
-      <workItem from="1774432184191" duration="2249000" />
+      <workItem from="1774432184191" duration="2677000" />
+      <workItem from="1774600610316" duration="2813000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -190,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774265863848</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="pokedox Update klar">
+      <option name="closed" value="true" />
+      <created>1774435365828</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1774435365828</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +217,7 @@
     <MESSAGE value="pokedox 3 commit toevogen.php" />
     <MESSAGE value="pokedox 4 commit toevogen.php" />
     <MESSAGE value="pokedox 5 commit toevogen.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="pokedox 5 commit toevogen.php" />
+    <MESSAGE value="pokedox Update klar" />
+    <option name="LAST_COMMIT_MESSAGE" value="pokedox Update klar" />
   </component>
 </project>

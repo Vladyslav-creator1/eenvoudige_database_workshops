@@ -24,36 +24,29 @@ include "../includes/db_functions.php";
 $conn = StartConnection("pokemondb");
 //form verzonden of niet
 if (isset($_POST["SubmitForm"])) {
-    $number = $_POST["pokemonaNumber"];
-    $name = $_POST["pokemonaName"];
-    $ability = $_POST["pokemonability"];
-    $Type1 = $_POST["pokemonType1"];
-    $Type2 = $_POST["pokemonType2"];
-    $Species = $_POST["pokemonSpecies"];
-    $Picture = $_POST["pokemonPictures"];
-//bouwen de query voor de update
-    $Updatequery = "UPDATE pokemon SET 
-            name = '$name',
-            ability = '$ability',
-            Type1 = '$Type1',
-            Type2 = '$Type2',
-            Species = '$Species',
-            Picture = '$Picture',
-            number = '$number'
-        WHERE number = '$pokemonNumber'
-    ";
-    //dat de query uitgevoerd wordt in database
-    $rowsAffected = ExecuteQuery($Updatequery);
-    if($rowsAffected >= 1){
-        echo "Pokemon succesvol verwerkt.";
+    // ophalen verzond of niet
 
-    }
-    else
-    {
-        echo "Helaas er is iets misgegan.";
+    // delete
+    $DeleteQuery = "DELETE FROM pokemon WHERE number = '$pokemonNumber'";
+    $rowsAffected = ExecuteQuery($DeleteQuery);
+
+    if($rowsAffected >= 1){
+        echo "Pokemon succesvol verwijderd.";
+        echo '<br><a href="index.php">Terug naar overzicht</a>';
+        exit; // stop script
+    } else {
+        echo "Helaas, er is iets misgegaan.";
     }
 }
 
+// als niet delete dan fout
+$result = ExecuteSelectQuery($query);
+if (!empty($result)) {
+    $current = $result[0];
+} else {
+    echo "Pokemon niet gevonden.";
+    exit;
+}
 
 
 

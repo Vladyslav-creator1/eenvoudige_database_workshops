@@ -104,7 +104,8 @@ global $selectedType;
             echo $name . "<br>";
             echo "<img src='$img' alt='$name' width='100'>";
             echo "</article>";
-            echo "<a href='pokemon_bewerking.php?pokemonNumber=$pokemonNumber'><button>Bewerking</button></a>";
+            echo "<a href='pokemon_bewerking.php?pokemonNumber=$pokemonNumber'><button style='color: #55baed'>Bewerking</button></a>";
+            echo "<a href='pokemon_verwijderen.php?pokemonNumber=$pokemonNumber'><button style = 'color: #f44336'>Verwijderen</button></a>";
         }
         ?>
     </section>
