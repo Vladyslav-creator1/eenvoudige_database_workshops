@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2518a24-7f2c-4b9c-955e-f87bdd17277e" name="Changes" comment="pokedox Update klar">
-      <change afterPath="$PROJECT_DIR$/pokedex/pokemon_verwijderen.php" afterDir="false" />
+    <list default="true" id="d2518a24-7f2c-4b9c-955e-f87bdd17277e" name="Changes" comment="pokedox delete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokedex/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokedex/pokemon_bewerking.php" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/pokemon_bewerking.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokedex/pokemon_verwijderen.php" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/pokemon_verwijderen.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +108,8 @@
       <workItem from="1773764421509" duration="4915000" />
       <workItem from="1774259208487" duration="6658000" />
       <workItem from="1774432184191" duration="2677000" />
-      <workItem from="1774600610316" duration="2813000" />
+      <workItem from="1774600610316" duration="3513000" />
+      <workItem from="1774864111575" duration="2062000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -200,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774435365828</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="pokedox delete">
+      <option name="closed" value="true" />
+      <created>1774603600249</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1774603600249</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +225,18 @@
     <MESSAGE value="pokedox 4 commit toevogen.php" />
     <MESSAGE value="pokedox 5 commit toevogen.php" />
     <MESSAGE value="pokedox Update klar" />
-    <option name="LAST_COMMIT_MESSAGE" value="pokedox Update klar" />
+    <MESSAGE value="pokedox delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="pokedox delete" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/pokedex/pokemon_bewerking.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
